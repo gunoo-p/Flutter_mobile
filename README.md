@@ -4,6 +4,9 @@
  
  ## 2주차
   - Flutter 설치 및 설정
+    ```
+    flutter doctor -v // 버전, 설정 확인
+    ```
   - Flutter 버전 업그레이드
     ```
     flutter upgrade
