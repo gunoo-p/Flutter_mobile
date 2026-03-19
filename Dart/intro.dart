@@ -1,6 +1,6 @@
 // Dart 문법
 void main() {
-  final a = 'A'; // 상수값
+  final a = 'A'; // 상수값`
   print(a);
 
   int score = 50;
