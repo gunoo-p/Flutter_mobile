@@ -1,6 +1,6 @@
 # 이론 수업 기록
 
-### 26.03.19(목)
+### 26.03.19(목) (3주차)
 ### 화면 시작 (ui/pages)
 ##### StatelessWidget과 StatefulWidget의 차이
   - 화면 상태 변화가 필요 없을 땐 **Stateless**, 필요할 떈 **Stateful**
