@@ -21,8 +21,11 @@ class ProgressCard extends StatelessWidget {
             child: Row(
               mainAxisAlignment: .spaceBetween,
               children: [
-                Text('현재 진행률'),
-                Text('60%')
+                Text(
+                  '현재 진행률',
+                  style: TextStyle(fontWeight: .w700, fontSize: 16),
+                ),
+                Text('60%', style: TextStyle(fontWeight: .bold, fontSize: 30)),
               ],
             ),
           ),
