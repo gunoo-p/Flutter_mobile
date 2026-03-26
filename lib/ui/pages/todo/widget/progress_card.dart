@@ -29,7 +29,12 @@ class ProgressCard extends StatelessWidget {
               ],
             ),
           ),
-          Text('a'),
+          // ProgressBar 표시
+          LinearProgressIndicator(
+            value: 0.6,
+            color: Colors.white,
+            backgroundColor: Colors.white.withOpacity(0.5),
+          ),
           Text('a'),
         ],
       ),
