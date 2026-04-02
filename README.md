@@ -12,3 +12,7 @@
   - Progress_card 완성
   - filter_row 추가
   - todo_list 추가
+
+## 5주차
+  - todo_list.dart 완료
+  - bottom_nav UI 과제 (04.02 완료)

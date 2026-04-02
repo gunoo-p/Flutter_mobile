@@ -1,3 +1,4 @@
+import 'package:example/ui/pages/todo/bottom_navigation/bottom_navigation.dart';
 import 'package:example/ui/pages/todo/widget/filter_row.dart';
 import 'package:example/ui/pages/todo/widget/header.dart';
 import 'package:example/ui/pages/todo/widget/progress_card.dart';
@@ -14,6 +15,7 @@ class TodoPage extends StatelessWidget {
         child: Padding(
           padding: .all(24),
           child: Column(
+            spacing: 24,
             crossAxisAlignment: .stretch,
             children: [
               // 타이틀 상단
@@ -22,6 +24,7 @@ class TodoPage extends StatelessWidget {
               FilterRow(),
               _buildTodoTitle(),
               TodoList(),
+              BottomNavigation(),
             ],
           ),
         ),
